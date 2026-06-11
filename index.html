@@ -1,0 +1,595 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Febin Jacob | Personal Portfolio</title>
+    
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="Personal portfolio of Febin Jacob, showcasing web design, UI/UX development, content creation, and digital marketing projects.">
+    <meta name="author" content="Febin Jacob">
+    <meta name="keywords" content="Febin Jacob, Portfolio, Web Design, UI/UX, Frontend Developer, Freelance Developer">
+    
+    <!-- Google Fonts: Outfit (Headings) and Plus Jakarta Sans (Body) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- External CSS Libraries -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <!-- Navigation Header -->
+    <header class="header-area">
+        <nav class="navbar navbar-expand-lg fixed-top">
+            <div class="container">
+                <a class="navbar-brand" href="#home" data-scroll-goto="0">Febin<span>.</span></a>
+
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar" aria-controls="collapsibleNavbar" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"><i class="fa-solid fa-bars"></i></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                    <ul class="navbar-nav ml-auto align-items-center">
+                        <li class="nav-item"><a href="#home" class="nav-link active" data-scroll-nav="0">home</a></li>
+                        <li class="nav-item"><a href="#about" class="nav-link" data-scroll-nav="1">about</a></li>
+                        <li class="nav-item"><a href="#experience" class="nav-link" data-scroll-nav="2">experience</a></li>
+                        <li class="nav-item"><a href="#services" class="nav-link" data-scroll-nav="3">services</a></li>
+                        <li class="nav-item"><a href="#portfolio" class="nav-link" data-scroll-nav="4">portfolio</a></li>
+                        <li class="nav-item"><a href="#contact" class="nav-link" data-scroll-nav="5">contact</a></li>
+                        <li class="nav-item theme-toggle-container">
+                            <button id="theme-toggle" class="theme-toggle-btn" aria-label="Toggle Theme">
+                                <i class="fa-solid fa-moon"></i>
+                            </button>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero / Home Section -->
+    <section class="home" id="home" data-scroll-index="0">
+        <div class="header-content d-flex align-items-center">
+            <!-- Parallax Floating Elements -->
+            <div id="parallax">
+                <div class="header-shape shape-one" data-depth="0.10">
+                    <img src="https://i.postimg.cc/J7bRR2cK/shape-1.png" alt="shape">
+                </div>
+                <div class="header-shape shape-two" data-depth="0.30">
+                    <img src="https://i.postimg.cc/437TqLx6/shape-2.png" alt="shape">
+                </div>
+                <div class="header-shape shape-three" data-depth="0.40">
+                    <img src="https://i.postimg.cc/63Cx58RT/shape-3.png" alt="shape">
+                </div>
+                <div class="header-shape shape-four" data-depth="0.60">
+                    <img src="https://i.postimg.cc/437TqLx6/shape-2.png" alt="shape">
+                </div>
+                <div class="header-shape shape-five" data-depth="0.20">
+                    <img src="https://i.postimg.cc/J7bRR2cK/shape-1.png" alt="shape">
+                </div>
+                <div class="header-shape shape-six" data-depth="0.15">
+                    <img src="https://i.postimg.cc/bNyfpNvN/shape-4.png" alt="shape">
+                </div>
+                <div class="header-shape shape-seven" data-depth="0.50">
+                    <img src="https://i.postimg.cc/9FL5M54P/shape-5.png" alt="shape">
+                </div>
+                <div class="header-shape shape-eight" data-depth="0.40">
+                    <img src="https://i.postimg.cc/63Cx58RT/shape-3.png" alt="shape">
+                </div>
+                <div class="header-shape shape-nine" data-depth="0.20">
+                    <img src="https://i.postimg.cc/sgLkYY4v/shape-6.png" alt="shape">
+                </div>
+                <div class="header-shape shape-ten" data-depth="0.30">
+                    <img src="https://i.postimg.cc/63Cx58RT/shape-3.png" alt="shape">
+                </div>
+            </div>
+            
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-6 col-md-12 order-2 order-lg-1">
+                        <div class="home-text">
+                            <h4>HELLO, I'M</h4>
+                            <h1>Febin Jacob</h1>
+                            <p>I am a <span id="typewriter" class="typewriter-text">Freelance UI Designer & Web Developer</span></p>
+
+                            <div class="home-btn mt-4">
+                                <a href="#portfolio" class="btn-1 mr-3" data-scroll-goto="4">View my Work</a>
+                                <a href="#contact" class="btn-2" data-scroll-goto="5">Get in Touch</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-6 col-md-12 order-1 order-lg-2 text-center mb-5 mb-lg-0">
+                        <div class="home-img-wrapper">
+                            <div class="home-img">
+                                <img src="myimage.jpg" alt="Febin Jacob" class="img-fluid rounded-custom shadow-lg">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Social Links Floating Area -->
+            <div class="header-social">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <div class="header-social-icon">
+                                <ul>
+                                    <li><a href="https://www.instagram.com/febi._n_fj/" target="_blank" rel="noopener"><i class="fa-brands fa-instagram"></i></a></li>
+                                    <li><a href="https://github.com/Febinfj" target="_blank" rel="noopener"><i class="fa-brands fa-github"></i></a></li>
+                                    <li><a href="https://www.linkedin.com/in/febi-n-jacob/" target="_blank" rel="noopener"><i class="fa-brands fa-linkedin-in"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about-area section-padding" id="about" data-scroll-index="1">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div class="section-title">
+                        <h4>About</h4>
+                        <h2>Personal <span>Details</span></h2>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="about-content">
+                        <h5 class="about-title">I'm <span>Febin Jacob</span>, a Final-Year CSE Student</h5>
+                        <div class="about-highlight-box">
+                            <p class="details text-highlighted">
+                                I am a Final-Year Computer Science Engineering student passionate about <span class="highlight-text">Frontend Development</span>, <span class="highlight-text">UI/UX Design</span>, <span class="highlight-text">Machine Learning</span>, videography, <span class="highlight-text">Digital Marketing</span>, and <span class="highlight-text">Community Leadership</span>. I bridge the gap between design and development by building premium user interfaces and interactive environments.
+                            </p>
+                        </div>
+                        <div class="about-highlight-box secondary-box mt-3">
+                            <p class="details">
+                                Currently, I serve as the <span class="highlight-text">Technical Director</span> at our indie game studio, <a href="https://framedropinteractive.in/" target="_blank" rel="noopener" class="framedrop-link"><strong>FrameDrop Interactive</strong></a>, where I actively contribute to game development. I am also deeply engaged in community building, contributing regularly to <strong>µLearn</strong>, <strong>CSI</strong>, <strong>ICFOSS</strong>, and <strong>IEDC</strong>. I am actively seeking internship opportunities in <span class="highlight-text">Frontend Development</span>, <span class="highlight-text">Web Development</span>, <span class="highlight-text">UI/UX Design</span>, and <span class="highlight-text">Software Development</span> to create impact and drive innovation.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-lg-6 mt-5 mt-lg-0">
+                    <div class="skills-showcase">
+                        <!-- Technical Skills -->
+                        <div class="skills-category mb-4">
+                            <h4 class="skills-cat-title"><i class="fa-solid fa-code mr-2"></i>Technical Expertise</h4>
+                            <div class="skills-grid mt-3">
+                                <div class="skill-badge"><i class="fa-brands fa-html5 html5-color"></i> HTML5</div>
+                                <div class="skill-badge"><i class="fa-brands fa-css3-alt css3-color"></i> CSS3</div>
+                                <div class="skill-badge"><i class="fa-brands fa-js javascript-color"></i> JavaScript</div>
+                                <div class="skill-badge"><i class="fa-brands fa-react react-color"></i> React.js</div>
+                                <div class="skill-badge"><i class="fa-brands fa-node-js node-color"></i> Node.js</div>
+                                <div class="skill-badge"><i class="fa-brands fa-python python-color"></i> Python</div>
+                                <div class="skill-badge"><i class="fa-solid fa-c c-color"></i> C</div>
+                                <div class="skill-badge"><i class="fa-solid fa-square-plus cpp-color"></i> C++</div>
+                                <div class="skill-badge"><i class="fa-brands fa-java java-color"></i> Java</div>
+                                <div class="skill-badge"><i class="fa-solid fa-database sql-color"></i> SQL</div>
+                                <div class="skill-badge"><i class="fa-brands fa-git-alt git-color"></i> Git</div>
+                                <div class="skill-badge"><i class="fa-brands fa-github github-color"></i> GitHub</div>
+                            </div>
+                        </div>
+
+                        <!-- Creative Skills -->
+                        <div class="skills-category">
+                            <h4 class="skills-cat-title"><i class="fa-solid fa-wand-magic-sparkles mr-2"></i>Creative Mastery</h4>
+                            <div class="skills-grid mt-3">
+                                <div class="skill-badge"><i class="fa-solid fa-video videography-color"></i> Videography</div>
+                                <div class="skill-badge"><i class="fa-brands fa-figma figma-color"></i> Figma</div>
+                                <div class="skill-badge"><i class="fa-solid fa-file-pen canva-color"></i> Canva</div>
+                                <div class="skill-badge"><i class="fa-solid fa-bullhorn creation-color"></i> Content Creation</div>
+                                <div class="skill-badge"><i class="fa-solid fa-chart-line marketing-color"></i> Digital Marketing</div>
+                                <div class="skill-badge"><i class="fa-solid fa-share-nodes management-color"></i> Social Media Management</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Catchy Personal Details (Separate Divs) -->
+            <div class="row mt-5">
+                <div class="col-md-6 mb-4">
+                    <div class="personal-detail-card">
+                        <div class="detail-icon"><i class="fa-solid fa-envelope-open-text"></i></div>
+                        <span class="label">Email Address</span>
+                        <span class="value"><a href="mailto:febinjacobmylom@gmail.com">febinjacobmylom@gmail.com</a></span>
+                    </div>
+                </div>
+                <div class="col-md-6 mb-4">
+                    <div class="personal-detail-card">
+                        <div class="detail-icon"><i class="fa-solid fa-earth-americas"></i></div>
+                        <span class="label">Based In</span>
+                        <span class="value">Kollam, Kerala, India</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience & Leadership Section -->
+    <section class="experience section-padding" id="experience" data-scroll-index="2">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div class="section-title">
+                        <h4>Timeline</h4>
+                        <h2>Leadership & <span>Experience</span></h2>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row justify-content-center">
+                <div class="col-lg-10">
+                    <div class="timeline">
+                        <!-- Timeline Item 1 -->
+                        <div class="timeline-item">
+                            <div class="timeline-dot"></div>
+                            <div class="timeline-date">Co-Founder & Technical Director</div>
+                            <div class="timeline-content">
+                                <h3><a href="https://framedropinteractive.in/" target="_blank" rel="noopener" class="timeline-link">FrameDrop Interactive</a></h3>
+                                <p>Directing technical architecture, codebase management, and design processes for game builds under our indie studio. Driving frontend integrations and gameplay design structures.</p>
+                            </div>
+                        </div>
+
+                        <!-- Timeline Item 2 -->
+                        <div class="timeline-item">
+                            <div class="timeline-dot"></div>
+                            <div class="timeline-date">Co-Founder</div>
+                            <div class="timeline-content">
+                                <h3>Rewynd Store</h3>
+                                <p>Led digital design configurations, branding assets, social media setups, and product marketing architectures to ensure a polished user experience.</p>
+                            </div>
+                        </div>
+
+                        <!-- Timeline Item 3 -->
+                        <div class="timeline-item">
+                            <div class="timeline-dot"></div>
+                            <div class="timeline-date">Former Sub-Lead</div>
+                            <div class="timeline-content">
+                                <h3>µLearn PEC</h3>
+                                <p>Coordinated technical event pipelines, hosted workshop cohorts, and drove student skill progression schemes across frontend development and modern tech stacks.</p>
+                            </div>
+                        </div>
+
+                        <!-- Timeline Item 4 -->
+                        <div class="timeline-item">
+                            <div class="timeline-dot"></div>
+                            <div class="timeline-date">Discord Moderator</div>
+                            <div class="timeline-content">
+                                <h3>µLearn PEC</h3>
+                                <p>Moderating online forums, resolving technical workspace concerns, building community engagement loops, and organizing technical community AMA sessions.</p>
+                            </div>
+                        </div>
+
+                        <!-- Timeline Item 5 -->
+                        <div class="timeline-item">
+                            <div class="timeline-dot"></div>
+                            <div class="timeline-date">Technical Team Member</div>
+                            <div class="timeline-content">
+                                <h3>CSI Cell PEC (Computer Society of India)</h3>
+                                <p>Assisting in website maintenance tasks, platform bug fixes, and hosting inter-departmental programming contests and community coding sessions.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services section-padding" id="services" data-scroll-index="3">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div class="section-title">
+                        <h4>Services</h4>
+                        <h2>What I'm <span>Doing</span></h2>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <!-- Service 1 -->
+                <div class="col-lg-4 col-md-6">
+                    <div class="service-item">
+                        <div class="icon">
+                            <i class="fa-solid fa-laptop"></i>
+                        </div>
+                        <h3>Web Design</h3>
+                        <p>Translating goals into visual wireframes and high-fidelity mockups. Blending artistic vision with digital layouts to create immersive and highly appealing sites.</p>
+                    </div>
+                </div>
+                
+                <!-- Service 2 -->
+                <div class="col-lg-4 col-md-6">
+                    <div class="service-item">
+                        <div class="icon">
+                            <i class="fa-solid fa-gamepad"></i>
+                        </div>
+                        <h3>Game Development</h3>
+                        <p>Developing interactive, immersive game architectures, coding gameplay mechanics, and optimizing graphics performance under FrameDrop Interactive indie studio.</p>
+                    </div>
+                </div>
+
+                <!-- Service 3 -->
+                <div class="col-lg-4 col-md-6">
+                    <div class="service-item">
+                        <div class="icon">
+                            <i class="fa-solid fa-compass-drafting"></i>
+                        </div>
+                        <h3>UI/UX Design</h3>
+                        <p>Structuring intuitive user flows, interactable prototypes, and interactive interfaces. Prioritizing layout consistency, ease-of-use, and aesthetic engagement.</p>
+                    </div>
+                </div>
+
+                <!-- Service 4 -->
+                <div class="col-lg-4 col-md-6">
+                    <div class="service-item">
+                        <div class="icon">
+                            <i class="fa-solid fa-palette"></i>
+                        </div>
+                        <h3>Content Creation</h3>
+                        <p>Developing unique branding assets, custom vector illustrations, and responsive iconography to deliver a cohesive style and reinforce marketing goals.</p>
+                    </div>
+                </div>
+
+                <!-- Service 5 -->
+                <div class="col-lg-4 col-md-6">
+                    <div class="service-item">
+                        <div class="icon">
+                            <i class="fa-solid fa-bullhorn"></i>
+                        </div>
+                        <h3>Digital Marketing</h3>
+                        <p>Integrating analytics, performance monitoring, SEO standards, and conversion metrics to convert regular user traffic into active platform customers.</p>
+                    </div>
+                </div>
+
+                <!-- Service 6 -->
+                <div class="col-lg-4 col-md-6">
+                    <div class="service-item">
+                        <div class="icon">
+                            <i class="fa-solid fa-mobile-button"></i>
+                        </div>
+                        <h3>Android Development</h3>
+                        <p>Crafting compact mobile application layouts, intuitive navigation maps, and functional components, keeping user interaction responsive and fast.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section class="img-gallery section-padding" id="portfolio" data-scroll-index="4">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div class="section-title">
+                        <h4>Portfolio</h4>
+                        <h2>My Latest <span>Work</span></h2>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Portfolio Filters -->
+            <div class="row mb-5">
+                <div class="col-lg-12 d-flex justify-content-center sortBtn flex-wrap">
+                    <a href="#" class="filter-btn active" data-filter="*">All Work</a>
+                    <a href="#" class="filter-btn" data-filter=".web-design">Web Apps</a>
+                    <a href="#" class="filter-btn" data-filter=".games">Games</a>
+                    <a href="#" class="filter-btn" data-filter=".utility">Utilities</a>
+                </div>
+            </div>
+
+            <!-- Portfolio Grid -->
+            <div class="row grid">
+                <!-- FJTube YouTube Clone -->
+                <div class="col-lg-4 col-md-6 col-sm-12 web-design mb-4 single-work">
+                    <a href="https://febinfj.github.io/youtube_clone/" target="_blank" rel="noopener" class="project-card-link">
+                        <div class="project-card">
+                            <span class="project-category">Web App</span>
+                            <h3 class="project-title">FJTube <i class="fa-solid fa-arrow-up-right-from-square"></i></h3>
+                            <p class="project-desc">A responsive YouTube dashboard clone featuring video player layout integration and sidebar navigation.</p>
+                        </div>
+                    </a>
+                </div>
+
+                <!-- Weather App -->
+                <div class="col-lg-4 col-md-6 col-sm-12 web-design mb-4 single-work">
+                    <a href="https://febinfj.github.io/weather_app/" target="_blank" rel="noopener" class="project-card-link">
+                        <div class="project-card">
+                            <span class="project-category">Web App</span>
+                            <h3 class="project-title">Weather App <i class="fa-solid fa-arrow-up-right-from-square"></i></h3>
+                            <p class="project-desc">A dynamic, responsive forecasting web application incorporating open weather forecasting APIs.</p>
+                        </div>
+                    </a>
+                </div>
+
+                <!-- Smart Notes -->
+                <div class="col-lg-4 col-md-6 col-sm-12 utility mb-4 single-work">
+                    <a href="https://febinfj.github.io/cl-web-smartnotes/" target="_blank" rel="noopener" class="project-card-link">
+                        <div class="project-card">
+                            <span class="project-category">Utility</span>
+                            <h3 class="project-title">Smart Notes <i class="fa-solid fa-arrow-up-right-from-square"></i></h3>
+                            <p class="project-desc">A browser note-taking platform supporting clean text logs and local storage caching features.</p>
+                        </div>
+                    </a>
+                </div>
+
+                <!-- Budget App -->
+                <div class="col-lg-4 col-md-6 col-sm-12 utility mb-4 single-work">
+                    <a href="https://febinfj.github.io/Budget_App/" target="_blank" rel="noopener" class="project-card-link">
+                        <div class="project-card">
+                            <span class="project-category">Utility</span>
+                            <h3 class="project-title">Budget App <i class="fa-solid fa-arrow-up-right-from-square"></i></h3>
+                            <p class="project-desc">An interactive budget tracking tool designed to log transactions, compile stats, and manage savings.</p>
+                        </div>
+                    </a>
+                </div>
+
+                <!-- Skill Finder -->
+                <div class="col-lg-4 col-md-6 col-sm-12 utility mb-4 single-work">
+                    <a href="https://github.com/Febinfj/skill-finder" target="_blank" rel="noopener" class="project-card-link">
+                        <div class="project-card">
+                            <span class="project-category">Utility</span>
+                            <h3 class="project-title">Skill Finder <i class="fa-solid fa-arrow-up-right-from-square"></i></h3>
+                            <p class="project-desc">A platform matchmaking tool that helps list, search, and align dev profiles with modern technologies.</p>
+                        </div>
+                    </a>
+                </div>
+
+                <!-- Tic Tac Game -->
+                <div class="col-lg-4 col-md-6 col-sm-12 games mb-4 single-work">
+                    <a href="https://febinfj.github.io/tic_tac/" target="_blank" rel="noopener" class="project-card-link">
+                        <div class="project-card">
+                            <span class="project-category">Game</span>
+                            <h3 class="project-title">Tic-Tac Game <i class="fa-solid fa-arrow-up-right-from-square"></i></h3>
+                            <p class="project-desc">A responsive classic Tic-Tac-Toe browser game incorporating interactive styling and reset triggers.</p>
+                        </div>
+                    </a>
+                </div>
+
+                <!-- To-Do List -->
+                <div class="col-lg-4 col-md-6 col-sm-12 utility mb-4 single-work">
+                    <a href="https://febinfj.github.io/todo_list/" target="_blank" rel="noopener" class="project-card-link">
+                        <div class="project-card">
+                            <span class="project-category">Utility</span>
+                            <h3 class="project-title">To-Do List <i class="fa-solid fa-arrow-up-right-from-square"></i></h3>
+                            <p class="project-desc">A simple, clean tool to create checklists, organize tasks, and track completed items locally.</p>
+                        </div>
+                    </a>
+                </div>
+
+                <!-- Silly Story Generator -->
+                <div class="col-lg-4 col-md-6 col-sm-12 utility games mb-4 single-work">
+                    <a href="https://febinfj.github.io/silly_story/" target="_blank" rel="noopener" class="project-card-link">
+                        <div class="project-card">
+                            <span class="project-category">Game / Utility</span>
+                            <h3 class="project-title">Silly Story Generator <i class="fa-solid fa-arrow-up-right-from-square"></i></h3>
+                            <p class="project-desc">An interactive story generator that produces random fun stories based on text inputs.</p>
+                        </div>
+                    </a>
+                </div>
+
+                <!-- Chatroom App -->
+                <div class="col-lg-4 col-md-6 col-sm-12 web-design utility mb-4 single-work">
+                    <a href="https://chatroom-six-lovat.vercel.app/" target="_blank" rel="noopener" class="project-card-link">
+                        <div class="project-card">
+                            <span class="project-category">Web App / Utility</span>
+                            <h3 class="project-title">Chatroom <i class="fa-solid fa-arrow-up-right-from-square"></i></h3>
+                            <p class="project-desc">A real-time messaging application supporting interactive room lobbies and live chat updates.</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact section-padding" id="contact" data-scroll-index="5">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div class="section-title">
+                        <h4>Contact</h4>
+                        <h2>Get <span>In Touch</span></h2>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row justify-content-center">
+                <div class="col-lg-10">
+                    <div class="row">
+                        <!-- Contact Info cards (left) -->
+                        <div class="col-md-4 mb-4 mb-md-0">
+                            <div class="contact-info-list h-100 d-flex flex-column justify-content-between">
+                                <div class="contact-info-card text-center p-3 mb-3">
+                                    <div class="card-icon"><i class="fa-solid fa-envelope"></i></div>
+                                    <h5>Email Me</h5>
+                                    <p>febinjacobmylom@gmail.com</p>
+                                </div>
+                                <div class="contact-info-card text-center p-3">
+                                    <div class="card-icon"><i class="fa-solid fa-location-dot"></i></div>
+                                    <h5>Find Me</h5>
+                                    <p>Kollam, Kerala, India</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Contact Form (right) -->
+                        <div class="col-md-8">
+                            <div class="contact-form">
+                                <form id="contact-form-el" onsubmit="event.preventDefault(); alert('Message sent successfully!');">
+                                    <div class="row">
+                                        <div class="col-md-6 form-group">
+                                            <input type="text" placeholder="Your Name" class="form-control" required>
+                                        </div>
+                                        <div class="col-md-6 form-group">
+                                            <input type="email" placeholder="Your Email" class="form-control" required>
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <input type="text" placeholder="Subject" class="form-control" required>
+                                    </div>
+                                    <div class="form-group">
+                                        <textarea placeholder="Your Message" class="form-control" rows="5" required></textarea>
+                                    </div>
+                                    <div class="text-right">
+                                        <button type="submit" class="btn-2">Send Message</button>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="row text-center align-items-center">
+                <div class="col-md-6 text-md-left mb-3 mb-md-0">
+                    <p class="copyright-text">&copy; 2026 Febin Jacob. All Rights Reserved.</p>
+                </div>
+                <div class="col-md-6 text-md-right">
+                    <div class="footer-social-links">
+                        <a href="https://www.instagram.com/febi._n_fj/" target="_blank" rel="noopener"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://github.com/Febinfj" target="_blank" rel="noopener"><i class="fa-brands fa-github"></i></a>
+                        <a href="https://www.linkedin.com/in/febi-n-jacob/" target="_blank" rel="noopener"><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- External Script Libraries (CDN) -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.4/imagesloaded.pkgd.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/parallax/3.1.0/parallax.min.js"></script>
+    
+    <!-- Custom JS -->
+    <script src="main.js"></script>
+</body>
+</html>
